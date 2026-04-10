@@ -1,0 +1,22 @@
+{
+  "name": "azure-todo-app",
+  "version": "1.0.0",
+  "description": "TODO app deployed on Azure App Service with Cosmos DB, Key Vault, Blob Storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.1.1",
+    "@azure/identity": "^4.4.1",
+    "@azure/keyvault-secrets": "^4.8.0",
+    "@azure/storage-blob": "^12.24.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
